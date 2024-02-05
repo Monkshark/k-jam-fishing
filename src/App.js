@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import {getIpAndCity} from "./js/getIpAndCity";
+import { getIpAndCity } from "./js/getIpAndCity";
 
 function App() {
     const [ipAndCity, setIpAndCity] = useState(null);
 
     useEffect(() => {
-    getIpAndCity().then(result => setIpAndCity(result));
+        getIpAndCity().then(result => setIpAndCity(result));
     }, []);
 
     return (

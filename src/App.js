@@ -1,19 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { getIpAndCity } from "./js/getIpAndCity";
+import "./App.css"
+import WarningBanner from "./jsx/WarningBanner";
 
 function App() {
-    const [ipAndCity, setIpAndCity] = useState(null);
-
-    useEffect(() => {
-        getIpAndCity().then(result => setIpAndCity(result));
-    }, []);
-
     return (
-        <div className="App">
-            <p>
-                {ipAndCity ? `IP: ${ipAndCity.ip}, Location: ${ipAndCity.location}` : 'Loading...'}
-            </p>
-        </div>
+        <>
+
+            <WarningBanner/>
+        </>
     );
 }
 

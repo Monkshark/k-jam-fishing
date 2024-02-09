@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KartriderExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/KartriderExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: url("../../public/res/backgroundimg.png");
+    background-size: contain;
+    text-align: center;
+    width: 100%;
+    height: 56vh;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+#banner{
+    position: absolute;
+    font-family: 'KartriderExtraBold', serif;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32%;
+    line-height: 1;
+    margin: 10vh 0 8vw 0;
+    background: linear-gradient(#d90000, #8b0000);
+    color: white;
+    box-shadow: 0 0 50px 0 black
+}
+
+.title{
+    font-size: 0.5em;
+    font-family: 'Pretendard-Bold', serif;
+}
+
+#subtitle{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 1.6vw;
+    top: 56%;
+}
+
+#section-left{
+    width: 40%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    box-shadow: 2px 2px 30px 0 #00000030
+}
+
+#section-right{
+    width: 29%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    float: left;
+    top: 60%;
+    right: 15%;
+    box-shadow: 2px 2px 30px 0 #00000030
+}
+
+#ad{
+    width: 29%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    float: left;
+    top: 123%;
+    right: 15%;
+    box-shadow: 2px 2px 30px 0 #00000030
+}
+
+.script{
+    font-size: 1.4vw;
+    margin: 30px;
+}
+
+.underscore{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.margin{
+    margin: 1vw;
+}

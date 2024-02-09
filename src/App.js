@@ -1,11 +1,11 @@
 import "./App.css"
-import WarningBanner from "./jsx/WarningBanner";
+import "./index.css"
+import WarningBannerYW from "./jsx/WarningBannerDs";
 
 function App() {
     return (
         <>
-
-            <WarningBanner/>
+            <WarningBannerYW/>
         </>
     );
 }

@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    background-image: url("../../public/backgroundimg.png");
+    background-image: url("../../public/res/backgroundimg.png");
     background-size: contain;
     text-align: center;
     width: 100%;

@@ -102,4 +102,11 @@ header{
 
 .margin{
     margin: 1vw;
+    color: #ff0000;
+    fontSize: 2vw;
+}
+
+.warning {
+    font-size: 4rem;
+    line-height: 60%;
 }

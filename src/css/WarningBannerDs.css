@@ -58,7 +58,7 @@ header{
     top: 56%;
 }
 
-#section-left{
+.warning-message-box{
     width: 40%;
     height: auto;
     background-color: #ffffff;
@@ -68,7 +68,7 @@ header{
     box-shadow: 2px 2px 30px 0 #00000030
 }
 
-#section-right{
+.ip-location-box{
     width: 29%;
     height: auto;
     background-color: #ffffff;
@@ -88,18 +88,4 @@ header{
     top: 123%;
     right: 15%;
     box-shadow: 2px 2px 30px 0 #00000030
-}
-
-.script{
-    font-size: 1.4vw;
-    margin: 30px;
-}
-
-.underscore{
-    color: #ff0000;
-    text-decoration: underline;
-}
-
-.margin{
-    margin: 1vw;
 }

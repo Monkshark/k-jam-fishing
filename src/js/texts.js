@@ -1,0 +1,1 @@
+export const ILLEGAL_TEXT = "정보통신망 이용촉진 및 정보보호 등에 관한 법률...";

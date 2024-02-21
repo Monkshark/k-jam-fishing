@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/WarningBannerDs.css';
 import { ILLEGAL_TEXT } from '../js/texts.js';
-function WarningBannerDs() {
+const WarningBannerDs = () => {
     return (
         <div>
             <header>
